@@ -11,7 +11,7 @@ from tensorflow.keras.models import load_model
 # python -m pip install {package_name}.
 
 # Load the saved model
-model = load_model('models/tea_leaf_disease_model.h5')
+model = load_model('tea_leaf_disease_model.h5')
 
 # Define class names
 class_names = ['Anthracnose', 'algal leaf', 'bird eye spot', 'brown blight', 'gray light', 'healthy', 'red leaf spot', 'white spot']
